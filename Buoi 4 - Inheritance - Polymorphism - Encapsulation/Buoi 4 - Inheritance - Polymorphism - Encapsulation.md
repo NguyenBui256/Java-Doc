@@ -1,9 +1,11 @@
+# Buổi 4: Tính chất OOP 
+
 ## Tính kế thừa (Inheritance)
 Tính chất đầu tiên trong 4 tính chất OOP Java chính là tính kế thừa. Tính kế thừa cho phép xây dựng các lớp mới trên cơ sở của lớp hiện có. Lớp mới (con) sẽ được kế thừa các thuộc tính và phương thức của lớp cha. Nó tương tự một đứa trẻ sẽ kế thừa các đặc điểm như màu da, màu tóc, cách nói chuyện…của cha mẹ.
   
 Việc sử dụng kế thừa giúp tiết kiệm thời gian và nỗ lực trong việc lập trình và giảm thiểu lỗi lặp lại. Nó cũng giúp tăng tính tái sử dụng của mã lập trình.
   
-### Ví dụ
+**Ví dụ:**
 ```Java
     class Animal {
         // các thuộc tính và phương thức của lớp Animal
@@ -27,7 +29,7 @@ Trong ghi đè (override), lớp con thay đổi lại một phương thức đ�
 Trong nạp chồng (overload), một phương thức duy nhất có thể thực hiện các chức năng khác nhau tùy thuộc vào ngữ cảnh trong đó nó được gọi.
 Sử dụng đối tượng đa hình (Polymorphic Objects), biến thuộc lớp cha có thể tham chiếu đến đối tượng của lớp con, khiến biến thuộc lớp cha cũng có thể đáp ứng với các phương thức của lớp con.
   
-** Ví dụ **:
+**Ví dụ:**:
 ```Java
 class Animal {
     public void makeSound() {
@@ -59,7 +61,7 @@ Trong Java, tính đóng gói được thực hiện bằng cách sử dụng c�
 - **Private**: Các biến và phương thức riêng tư (private) chỉ có thể truy cập trong lớp mà chúng được định nghĩa.
 - **Protected**: Các biến và phương thức được bảo vệ (protected) có thể truy cập được trong cùng lớp và các lớp con của nó.
   
-** Ví dụ **
+**Ví dụ:**
 ```Java
 class Person {
     private String name;

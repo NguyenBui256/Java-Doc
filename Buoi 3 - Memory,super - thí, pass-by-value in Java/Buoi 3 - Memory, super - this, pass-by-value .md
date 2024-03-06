@@ -6,7 +6,7 @@ Khi một chương trình Java được thực thi, nó sẽ yêu cầu hệ đi
   
 Sau đó, nó sẽ chia vùng không gian đó thành 4 vùng nhớ (memory segment) để lưu trữ.
   
-![](ScreenShot_20231107193136.png )
+![alt text](buoi3-1.png)
   
 - **Vùng nhớ Stack** (dùng để lưu trữ tham số và các biến local).
 - **Vùng nhớ Heap** (dùng để lưu trữ các đối tượng sau khi khởi tạo bằng từ khóa new và các biến static).
