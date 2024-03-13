@@ -1,4 +1,4 @@
-# Java Swing - Graphics2D
+![image](https://github.com/NguyenBui256/Java-Doc/assets/118871933/bc9dd901-d842-4093-b98c-8dd18d619a03)# Java Swing - Graphics2D
 
 ### 1. Java Swing:
 Java Swing là cách gọi rút gọn khi người ta nhắc đến Swing của Java Foundation (JFC). Nó là bộ công cụ GUI mà Sun Microsystems phát triển để xây dựng các ứng dụng tối ưu dùng cho window (bao gồm các thành phần như nút, thanh cuộn,…).
@@ -129,11 +129,14 @@ public class MyFrame extends JFrame implements ActionListener{
 ```
 
 #### 2.4 JTable
+
 ```Java
     JTable table = new JTable(4,2); //4 rows, 2 columns
     table.setValueAt("AloAlo",0,0);
     table.setValueAt("YesSir",1,0);
 ```
+![image](https://github.com/NguyenBui256/Java-Doc/assets/118871933/e5c1153f-8feb-465b-9e23-7a687ac680d5)
+
 
 #### 2.5 JList
 ```Java
